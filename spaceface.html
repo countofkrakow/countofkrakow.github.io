@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <!--
     Contributors: Christina Tang
-    Homepage
+    SpaceFace application
 -->
 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>countofkrakow</title>
-    <link type="text/css" href="styles/index.css" rel="stylesheet">
+    <link type="text/css" href="app/styles/index.css" rel="stylesheet">
     <!-- TODO: upload favicon -->
     <!-- <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"> -->
 </head>
@@ -23,16 +23,15 @@
     </header>
 
     <main>
-        <div>
-            <div class="img-container">
-                <img src="images/turing.jpg" alt="Turing, the cat">
-            </div>
-            <section>
-            <h1>Check out SpaceFace!</h1>
-            <p>
-                Turing the cat
-            </p>
-            </section>
+        <h1>SpaceFace</h1>
+        <p>
+            supported types: .jpeg, .jpg, .png
+        </p>
+        <div id="pic-upload">
+            <form id="pic-upload-form">
+                <input type="file" id="img" name="img" accept="image/*">
+                <input type="submit">
+            </form>
         </div>
     </main>
 
