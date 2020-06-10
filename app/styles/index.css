@@ -1,0 +1,80 @@
+/*
+    Author: Christina
+    Basic blue/space inspired style
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+html {
+    background-color: #000000;
+    background-image: url("../images/spacebg_akincakiner.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header, main, footer {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
+
+header, footer {
+    text-align: center;
+    align-self: center;
+}
+
+header h1 {
+    margin-bottom: auto;
+    font-size: 50px;
+}
+
+header h2 {
+    padding-bottom: 200px;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-bottom: 50px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    float: center;
+}
+
+main {
+    border-radius: 50px;
+    width: 85%;
+    align-self: center;
+    background-color: #283C50;
+    padding: 20px 40px;
+}
+
+main div {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-container img {
+    border-radius: 50px;
+    padding: 30px 30px 10px 30px;
+    width: 400px;
+    float: center;
+}
+
+.pic-upload {
+    align-content: center;
+}
